@@ -1,0 +1,404 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.menu{
+	width: 100vw;
+	height: 12vh;
+	background-color: rgb(93, 96, 110);
+	
+}
+ul{
+	list-style-type: none;
+	text-align: center;
+}
+li{
+	display: inline;
+	padding-right: 10px;
+}
+li a{
+	color: white;
+	text-decoration: none;
+	font-size: 2.0em;
+	border: 1px solid white;
+	position: relative;
+	top: 20px;
+	padding: 5px 25px;
+}
+ul li a:focus, ul li a:hover{
+	background-color:rgb(141, 146, 168); 
+}
+.autumn{
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	filter: blur(5px);
+}
+.autumn-text{
+	color: white;
+	text-shadow: 2px 2px black;
+	position: absolute;
+	top: 50%;	
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.autumn-text h1{
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bolder;
+	font-size: 4em;
+}
+.autumn-text h2{
+	text-align: center;
+	text-transform: capitalize;
+	font-size: 2em;
+	font-weight: bold;
+}
+.three-images{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	align-content: center;
+	width: 70%;
+	margin: 5% 10%;
+}
+.image-one{
+	margin-right: 50px;
+	background-color: rgb(230, 230, 230);
+}
+.image-two{
+	margin-right: 50px;
+	background-color: rgb(230, 230, 230);
+}
+.image-three{
+	background-color: rgb(230, 230, 230);
+}
+.image-one h4{
+	color: green;
+	margin: 2% 0%;
+	font-size: 1.5em;
+}
+.image-one p{
+	font-size: 1.1em;
+}
+.image-one button{
+	margin: 20px 30%;
+	padding: 10px 20px;
+	background-color: green;
+	color: white;
+	border-radius: 10px;
+	font-size: 1em;
+}
+.image-one button:hover{
+	background-color: rgb(56, 207, 66);
+}	
+.image-two h4{
+	color: blue;
+	margin: 2% 0%;
+	font-size: 1.5em;
+}
+.image-two p{
+	font-size: 1.1em;
+}
+.image-two button{
+	margin: 20px 30%;
+	padding: 10px 20px;
+	background-color: blue;
+	color: white;
+	border-radius: 10px;
+	font-size: 1em;
+}
+.image-two button:hover{
+	background-color: rgb(65, 65, 242);
+}
+.image-three h4{
+	color: grey;
+	margin: 2% 0%;
+	font-size: 1.5em;
+}
+.image-three p{
+	font-size: 1.1em;
+}
+.image-three button{
+	margin: 20px 30%;
+	padding: 10px 20px;
+	background-color: rgb(130, 42, 42);
+	color: white;
+	border-radius: 10px;
+	font-size: 1em;
+}
+.image-three button:hover{
+	background-color: rgb(232, 109, 109);
+}
+.two-images{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	align-content: center;
+	width: 70%;
+	margin: 5% 10%;
+}
+.image-four{
+	margin-right: 75px;
+	background-color: rgb(230, 230, 230);
+}
+.image-four h3{
+	text-align: center;
+	font-size: 1.5em;
+	margin: 5% 0%;
+	color: grey;
+}
+.image-four p{
+	margin-bottom: 5%;
+	font-size: 1.1em;
+}
+.image-five{
+	margin-right: 75px;
+	background-color: rgb(230, 230, 230);
+}
+.image-five h3{
+	text-align: center;
+	font-size: 1.5em;
+	margin: 5% 0%;
+	color: grey;
+}
+.image-five p{
+	margin-bottom: 5%;
+	font-size: 1.1em;
+}
+.image-five button{
+	padding: 5px 15px;
+	float: right;
+	margin-bottom: 40px;
+	margin-right: 90px;
+	border-radius: 10px;
+	font-size: 1.2em;
+	color: grey;
+}
+.image-five button:hover{
+	background-color: rgb(227, 225, 225);
+}
+.parallax{
+	display: grid;
+	grid-template-columns: 1fr;
+	height: 50%;
+}
+.parallax img{
+	width: 100%;
+	background-attachment: fixed;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  
+}
+.parallax h3{
+	font-size: 2.2em;
+	color:white;
+	text-align: center;
+}
+.parallax p{
+	font-size: 1.6em;
+	color: white;
+	text-align: center;
+}
+.parallax-text{
+	position: relative;
+	top: -650px;
+	left: 50px;
+	text-shadow: 2px 2px black;
+}
+.four-collumns{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	width: 70%;
+	margin: auto;
+	padding-bottom: 5%;
+}
+.first-collumn{
+	margin-right: 30px;
+	background-color: rgb(230, 230, 230);
+}
+.first-collumn h4{
+	text-align: center;
+	color: grey;
+	font-size: 1.5em;
+}
+.first-collumn p{
+	text-align: justify-all;
+	font-size: 1.3em;
+	margin-bottom: 20%;
+}
+.second-collumn{
+	margin-right: 30px;
+	background-color: rgb(230, 230, 230);
+}
+.second-collumn h4{
+	text-align: center;
+	color: grey;
+	font-size: 1.5em;
+}
+.second-collumn p{
+	text-align: justify-all;
+	font-size: 1.3em;
+	margin-bottom: 20%;
+}
+.second-collumn button{
+	margin: 20px 30%;
+	padding: 10px 20px;
+	background-color: rgb(227, 225, 225);
+	border-radius: 10px;
+	font-size: 1.1em;
+	color: grey;
+}
+.second-collumn button:hover{
+	background-color: rgb(143, 143, 143);
+}
+.third-collumn{
+	margin-right: 30px;
+	background-color: rgb(230, 230, 230);
+}
+.third-collumn h4{
+	text-align: center;
+	color: grey;
+	font-size: 1.5em;
+}
+.third-collumn p{
+	text-align: justify-all;
+	font-size: 1.3em;
+	margin-bottom: 20%;
+}
+.forth-collumn{
+	background-color: rgb(230, 230, 230);
+}
+.forth-collumn h4{
+	text-align: center;
+	color: grey;
+	font-size: 1.5em;
+}
+.forth-collumn p{
+	text-align: justify-all;
+	font-size: 1.3em;
+	margin-bottom: 20%;
+}
+.forth-collumn button{
+	margin: 20px 30%;
+	padding: 10px 20px;
+	color: grey;
+	background-color: rgb(227, 225, 225);
+	border-radius: 10px;
+	font-size: 1.1em;
+}
+.forth-collumn button:hover{
+	background-color: rgb(143, 143, 143);
+}
+.great-collumn{
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr 1fr;
+	margin-top: 700px;
+	margin-bottom: 700px;
+	width: 70vw;
+	margin: auto;
+	background-color: rgb(212, 212, 212);
+}
+.great-collumn img{
+	width: 70vw;
+}
+.text-button h2{
+	margin-right: 15px;
+	margin-left: 15px;
+	margin-top: 3%;
+	margin-bottom: 2%;
+	color: rgb(149, 152, 158);
+	background-color: rgb(212, 212, 212);
+}
+.text-button p{
+	margin-bottom: 3%;
+	margin-right: 15px;
+	margin-left: 15px;
+}
+.text-button button{
+	margin-left: 4%;
+	padding: 1% 2%;
+	border-radius: 10px;
+	font-size: 1.3em;
+	color: grey;
+}
+.text-button button:hover{
+	background-color: rgb(172, 174, 176);
+}
+.contact{
+	background-image: url("../images/mountains.jpg");
+	min-height: 500px;
+	background-attachment: fixed;
+ 	background-position: center;
+ 	background-repeat: no-repeat;
+ 	background-size: cover;
+ 	display: grid;
+ 	align-content: center;
+ 	margin-top: 5%;
+ }
+.contact h1{
+	color: white;
+	text-shadow: 2px 2px black;
+	text-transform: capitalize;
+	padding-bottom: 15px;
+}
+.contact-info{
+	text-align: center;
+	font-size: 1.1em;
+	border: 1px solid grey;
+	width: 50vw;
+	margin: auto;
+	padding: 1% 3%;
+	border-radius: 20px;
+	background-color: rgba(219, 219, 219, 0.5);
+	margin-bottom: 2%;
+}
+.contact-fields{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	width: 50vw;
+	align-content: center;
+	margin: auto;
+}
+.important input{
+	padding: 10px 100px;
+	margin-bottom:10px;
+	background-color: rgba(219, 219, 219, 0.5);
+	color: black;
+}
+.important input::placeholder{
+	color: black;
+	opacity: 1;
+}
+.message textarea{
+	margin-bottom: 5%;
+	background-color: rgba(219, 219, 219, 0.5);
+	border-radius: 5px;
+}
+.message textarea::placeholder{
+	color: black;
+	opacity: 1;
+}
+.last-button button{
+	padding: 15px 35px;
+	background-color: rgb(38, 38, 38);
+	color: white;
+	border-radius: 20px;
+}
+.last-button button:hover{
+	background-color: white;
+	color: black;
+}
+.footer{
+	padding-top: 3%;
+	height: 20vh;
+	color: rgb(82, 82, 82);
+	text-align: center;
+}
+.footer h1{
+	margin-bottom: 2%;
+}
+.footer p{
+	margin-bottom: 3%;
+}
